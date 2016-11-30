@@ -13,3 +13,13 @@ We define two sparsity  metrics:
 2) Population sparseness: is the sparseness of the response of MANY CELLs to one image. High population sparsity means only a few cells from the population respond to a particular image.
 
 The two metrics aren't necessarily related, and serve different purposes. We calculate both here.
+
+Files in this repo:
+
+1) sparsity_test_natural_scenes.ipynb: a jupyter notebook that downloads data from the Allen Observatory dataset and calculates sparseness of responses during natural scenes.
+
+2) sparsity_test_static_gratings.ipynb: same as 1), but for responses during static gratings.
+
+3) plot_sparsity_natscenes_vs_staticgratings.ipynb: a notebook that plots the mean sparsity across 16 mice, for both stimulus conditions
+
+4) sweep_response_test.ipynb: a notebook that checks to make sure the calculated trial averages are correct
